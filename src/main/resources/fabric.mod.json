@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "emptyfabricmod",
+  "version": "${version}",
+  "name": "Empty Fabric Mod",
+  "description": "Минимальная пустышка для Fabric 1.21.4",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "ru.yourname.empty.EmptyMod"
+    ],
+    "client": [
+      "ru.yourname.empty.EmptyModClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "fabric-api": "*"
+  }
+}
